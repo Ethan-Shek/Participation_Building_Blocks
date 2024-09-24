@@ -8,10 +8,10 @@
             bool likeCake = false;
             string word = "Yippee";
             double dec = 3.1415;
-            Console.WriteLine(num);
-            Console.WriteLine(likeCake);
-            Console.WriteLine(word);
-            Console.WriteLine(dec);
+            Console.WriteLine("int: " + num);
+            Console.WriteLine("boolean: " + likeCake);
+            Console.WriteLine("String: " + word);
+            Console.WriteLine("float/double: " + dec);
 
         }
 
