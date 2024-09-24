@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            int num = 5;
+            int num = 9;
+            int num2 = 10;
             bool likeCake = false;
             string word = "Yippee";
             double dec = 3.1415;
@@ -12,8 +13,23 @@
             Console.WriteLine("boolean: " + likeCake);
             Console.WriteLine("String: " + word);
             Console.WriteLine("float/double: " + dec);
+            namePrint();
+            Console.WriteLine("What's 9+10?");
+            Console.WriteLine(numAdd(num, num2));
 
         }
+
+        static void namePrint()
+        {
+            Console.WriteLine("My instuctor is Nick Buonarota!");
+        }
+
+        static int numAdd(int num, int num2)
+        {
+
+            return num + num2;
+        }
+
 
 
 
